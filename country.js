@@ -82,7 +82,7 @@ fetch(`https://restcountries.com/v3.1/name/${countryURLName}?fullText=true`)
           if (con == search.cca3) {
             const borderCountry = document.createElement("a");
             borderCountry.innerText = allData[index].name.common;
-            borderCountry.href = `/WhereInTheWorld/country.html?name=${allData[index].name.common}`;
+            borderCountry.href = `/country.html?name=${allData[index].name.common}`;
             borderCountries.appendChild(borderCountry);
           }
         });
