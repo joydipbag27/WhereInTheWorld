@@ -31,7 +31,7 @@ fetch("https://restcountries.com/v3.1/all")
     data.forEach((country) => {
       const countriesCard = document.createElement("a");
       countriesCard.classList.add("countries-card");
-      countriesCard.href = `/WhereInTheWorld/country.html?name=${country.name.common}`;
+      countriesCard.href = `/country.html?name=${country.name.common}`;
       countriesCard.innerHTML = `<img src="${country.flags.svg}">
             <div class="countries-info">
               <h5 class="countryName">${country.name.common}</h5>
@@ -57,7 +57,7 @@ filter.addEventListener("change", () => {
     data.forEach((country) => {
       const countriesCard = document.createElement("a");
       countriesCard.classList.add("countries-card");
-      countriesCard.href = `/WhereInTheWorld/country.html?name=${country.name.common}`;
+      countriesCard.href = `/country.html?name=${country.name.common}`;
       countriesCard.innerHTML = `<img src="${country.flags.svg}">
             <div class="countries-info">
               <h5 class="countryName">${country.name.common}</h5>
