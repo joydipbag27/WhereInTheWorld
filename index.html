@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Where In The World</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/coronavirus.png">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- prettier-ignore -->
+    <header>
+        <div class="header-content">
+          <h3><a href="/WhereInTheWorld/index.html">Where in the world?</a></h3>
+          <button class="dark-mode-btn "> <i class="ri-moon-line"></i> Dark Mode</button>
+        </div>
+    </header>
+    <div class="container">
+      <div class="middle-section">
+        <div class="search-bar">
+            <i class="ri-search-line"></i>
+            <input type="text" placeholder="Search for a country..."/>
+          </div>
+          <select name="region" class="filter">
+            <option selected disabled hidden class="default">
+              Filter by Region 
+            </option>
+            <option value="africa">Africa</option>
+            <option value="america">America</option>
+            <option value="asia">Asia</option>
+            <option value="europe">Europe</option>
+            <option value="oceania">Oceania</option>
+          </select>
+      </div>
+    </div>
+    <main>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

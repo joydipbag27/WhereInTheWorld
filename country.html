@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Where In The World</title>
+    <link rel="stylesheet" href="country.css" />
+    <link rel="icon" href="img/coronavirus.png">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- prettier-ignore -->
+    <header>
+        <div class="header-content">
+          <h3><a href="/WhereInTheWorld/index.html">Where in the world?</a></h3>
+          <button class="dark-mode-btn"> <i class="ri-moon-line"></i> Dark Mode</button>
+        </div>
+    </header>
+    <div class="middle-section">
+        <button class="back-btn"><i class="ri-arrow-left-line"></i> Back</button>
+    </div>
+    <main-section>
+        <div class="main-left">
+            <img class="flag" src="" alt="flag">
+        </div>
+        <div class="main-right">
+            <div class="info-top">
+                <h2 class="country-name"></h2>
+            </div>
+            <div class="info-middle">
+                <div class="info-middle-left">
+                    <h5 class="native-name">Native Name: <span></span></h5>
+                    <h5 class="population">Population: <span></span></h5>
+                    <h5 class="region">Region: <span></span></h5>
+                    <h5 class="sub-region">Sub Region: <span></span></h5>
+                    <h5 class="capital">Capital: <span></span></h5>
+                </div>
+                <div class="info-middle-right">
+                    <h5 class="top-domain">Top Level Domain: <span></span></h5>
+                    <h5 class="currencies">Currencies: <span></span></h5>
+                    <h5 class="languages">Languages: <span></span></h5>
+                </div>
+            </div>
+            <div class="info-bottom">
+                <h5 class="border-countries">Border Countries:</h5>
+                <div class="border-countries-container">
+                </div>
+            </div>
+        </div>
+    </main-section>
+    <script src="country.js"></script>
+  </body>
+</html>
